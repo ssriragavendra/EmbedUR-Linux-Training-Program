@@ -1,36 +1,23 @@
 LINUX COMMANDS - QUESTIONS AND ANSWERS
 
-1) Use the appropriate command to list all files larger than 1 MB in the current directory and save the output to a file.
+# 1) Use the appropriate command to list all files larger than 1 MB in the current directory and save the output to a file.
 
 Command: find . -maxdepth 1 -type f -size +1M > large_files.txt
-
-Explanation:
-- find .: Tells Linux to start looking in the current directory (represented by the dot).
-- -maxdepth 1: This ensures it only looks in the current folder and doesn't go digging into subfolders.
-- -type f: Restricts the search to files only (excluding directories).
-- -size +1M: The + sign means "greater than." You can also use k for Kilobytes or G for Gigabytes.
-- >: This is a redirection operator. Instead of printing the names on your screen, it "pushes" them into the file large_files.txt.
 
 Verification:
 command: cat large_files.txt
 This command will display the files larger than 1MB. In my VM I have only one file named 1mb.pdf (A sample pdf downloaded from google) which is of 1MB.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-2) Replace all occurrences of "localhost" with "127.0.0.1" in a configuration file named config.txt, and save the updated file as updated_config.txt.
+# 2) Replace all occurrences of "localhost" with "127.0.0.1" in a configuration file named config.txt, and save the updated file as updated_config.txt.
 
 Command: sed 's/localhost/127.0.0.1/g' config.txt > updated_config.txt
 
-Explanation:
-- sed: Stands for "Stream Editor." It processes text line-by-line.
-- s/old/new/: The standard syntax for substitution.
-- /g (Global): Without this, sed only replaces the first "localhost" it finds on each line. The g tells it to replace every single one.
-- Original vs. New: Note that we use > to save a new file. If you wanted to change the file "in-place" without creating a new one, you would use the -i flag (sed -i ...).
-
 Verification:
 The updated_config.txt is now created. The word localhost has been replaced with 127.0.0.1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-3) Use the appropriate command to search for lines containing the word "ERROR" in a log file but exclude lines containing "DEBUG". Save the results to a file named filtered_log.txt.
+# 3) Use the appropriate command to search for lines containing the word "ERROR" in a log file but exclude lines containing "DEBUG". Save the results to a file named filtered_log.txt.
 
 Sample log content:
 DEBUG: Starting the application initialization.
@@ -51,39 +38,21 @@ ERROR: DEBUG - Unexpected server response received.
 
 Command: grep "ERROR" log.txt | grep -v "DEBUG" > filtered_log.txt
 
-Explanation:
-- grep "ERROR": Searches log.txt and pulls out every line containing that word.
-- The Pipe (|): This is one of the most powerful tools in Linux. It takes the output of the first command and feeds it as the input to the next.
-- grep -v "DEBUG": The -v flag stands for invert-match. It tells the system: "Keep everything except the lines that contain 'DEBUG'."
-- In the log file, there is a line that says ERROR: DEBUG - by using the second grep, we successfully filter that out as requested.
-
 Verification:
 In the output file, filtered_log.txt, the word ERROR has been searched but the lines with the word DEBUG have been neglected.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-4) Write a code to identify the process with the highest memory usage and then terminate it.
+# 4) Write a code to identify the process with the highest memory usage and then terminate it.
 
 Command: ps aux --sort=-%mem | head -n 2
 
-Explanation:
-- ps aux: Displays every process running on the system.
-- --sort=-%mem: The minus sign - indicates a descending sort (highest to lowest). %mem targets Memory usage.
-- head -n 2: Shows only the top 2 lines (the header and the top process).
-- kill [PID]: Once you identify the PID (Process ID) from the list, kill sends a signal to the OS to shut that process down.
-
 Verification:
 The command has given the highest memory usage and the process can be killed. For example, if the process was Firefox, it can be killed using: kill <PID of Firefox>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-5) Use the networking tool command and print all the gateway available in a sorted manner.
+# 5) Use the networking tool command and print all the gateway available in a sorted manner.
 
 Command: ip route show | grep default | awk '{print $3}' | sort -u
-
-Explanation:
-- ip route: The modern replacement for the old route or netstat commands. It shows how data packets travel out of your computer.
-- grep default: The "default" route is typically your gateway (your router's IP).
-- awk '{print $3}': awk is a text-processing tool that views a line as a series of columns. In the output of ip route, the gateway IP is usually the 3rd word on the line.
-- sort -u: Ensures that if there are multiple identical paths, you only see a clean, unique list.
 
 Verification:
 ip route displays all the routing network and the sorted output shows the available gateways.
