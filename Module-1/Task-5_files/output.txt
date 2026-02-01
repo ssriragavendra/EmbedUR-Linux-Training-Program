@@ -1,0 +1,4 @@
+total 0
+-rw-rw-r-- 1 hanuman hanuman 0 Feb  1 23:21 a.txt
+-rw-rw-r-- 1 hanuman hanuman 0 Feb  1 23:21 b.txt
+-rw-rw-r-- 1 hanuman hanuman 0 Feb  1 23:21 c.txt
