@@ -8,3 +8,5 @@ File extension : .txt
 Finding the files using globbing
 
 ERROR: Source directory 'non_existent_source' does not exist
+Report generated successfully at: test_backup/backup_report.log
+
