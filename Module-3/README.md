@@ -1,4 +1,4 @@
-backup_manager.sh – Description
+# backup_manager.sh – Description
 
 This shell script is created as part of the Module 3 Assessment to demonstrate file handling and backup preparation using Bash scripting concepts.
 
