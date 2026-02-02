@@ -80,3 +80,5 @@ fi
 The script displays the total number of files identified for backup, providing clear feedback to the user.
 
 echo "Total number of $file_ext files to backup: $BACKUP_COUNT"
+
+The bachup_report.log file has been created and got saved automatically in test_backup directory.
