@@ -1,0 +1,18 @@
+Task-1 Command line arguements
+
+The added arguements:
+Source directory : test_source
+Backup directory : test_backup
+File extension : .txt
+
+Finding the files using globbing
+
+Files found in source directory wth extension .txt
+ file1.txt
+ file2.txt
+The export variable
+Total number of .txt files to backup: 2
+Creating Associative Array
+Files listed with index:
+ [0] file1.txt
+ [1] file2.txt

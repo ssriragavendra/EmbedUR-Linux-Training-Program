@@ -1,0 +1,10 @@
+Task-1 Command line arguements
+
+The added arguements:
+Source directory : non_existent_source
+Backup directory : test_backup
+File extension : .txt
+
+Finding the files using globbing
+
+ERROR: Source directory 'non_existent_source' does not exist

@@ -1,0 +1,3 @@
+Task-1 Command line arguements
+
+USAGE: ./backup_manager.sh <source_directory> <backup_directory> <file_extension>
