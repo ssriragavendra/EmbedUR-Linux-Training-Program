@@ -1,1 +1,0 @@
-ERROR: Directory 'missing_folder' doesn't exist.
