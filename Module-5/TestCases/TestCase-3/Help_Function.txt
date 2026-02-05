@@ -1,0 +1,9 @@
+Command:
+./File_analyser.sh --help > Help_Function.txt
+
+Output:
+Usage: ./File_analyser.sh [-d directory] [-f file] [-k keyword]
+  -d : Recursive search in directory
+  -f : Search in a specific file
+  -k : The keyword to find
+

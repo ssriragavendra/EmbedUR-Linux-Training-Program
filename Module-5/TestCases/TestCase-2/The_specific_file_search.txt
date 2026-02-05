@@ -1,0 +1,6 @@
+Command:
+./File_analyser.sh -f sample.txt -k "people" > File_Search_Output.txt
+
+Output:
+Keyword 'people' found in sample.txt
+Completed the analysis for the file ./File_analyser.sh

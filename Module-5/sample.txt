@@ -1,0 +1,8 @@
+people
+apple
+banana
+cat
+monkey
+ball
+bat
+pan
