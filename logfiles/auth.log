@@ -1,0 +1,56 @@
+2026-02-08T10:47:00.746906+05:30 hanuman-VMware-Virtual-Platform polkitd[725]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-08T10:47:51.164594+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-08T10:47:51.165961+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-08T10:47:51.207959+05:30 hanuman-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user hanuman(uid=1000) by hanuman(uid=0)
+2026-02-08T10:47:51.262467+05:30 hanuman-VMware-Virtual-Platform systemd-logind[797]: New session 2 of user hanuman.
+2026-02-08T10:47:51.376733+05:30 hanuman-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user hanuman(uid=1000) by hanuman(uid=0)
+2026-02-08T10:47:52.521099+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-08T10:47:53.621773+05:30 hanuman-VMware-Virtual-Platform gnome-keyring-daemon[1970]: The PKCS#11 component was already initialized
+2026-02-08T10:47:53.622116+05:30 hanuman-VMware-Virtual-Platform gnome-keyring-daemon[2159]: discover_other_daemon: 1
+2026-02-08T10:47:53.638499+05:30 hanuman-VMware-Virtual-Platform gnome-keyring-daemon[1970]: The Secret Service was already initialized
+2026-02-08T10:47:53.639155+05:30 hanuman-VMware-Virtual-Platform gnome-keyring-daemon[2162]: discover_other_daemon: 1
+2026-02-08T10:47:53.658717+05:30 hanuman-VMware-Virtual-Platform gnome-keyring-daemon[2165]: discover_other_daemon: 1
+2026-02-08T10:47:58.582785+05:30 hanuman-VMware-Virtual-Platform polkitd[725]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-08T10:48:02.202518+05:30 hanuman-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-08T10:48:02.230826+05:30 hanuman-VMware-Virtual-Platform systemd-logind[797]: Session c1 logged out. Waiting for processes to exit.
+2026-02-08T10:48:02.275714+05:30 hanuman-VMware-Virtual-Platform polkitd[725]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-08T10:48:02.299842+05:30 hanuman-VMware-Virtual-Platform systemd-logind[797]: Removed session c1.
+2026-02-08T10:49:03.167013+05:30 hanuman-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hanuman(uid=1000)
+2026-02-08T10:49:03.171148+05:30 hanuman-VMware-Virtual-Platform pkexec[2984]: hanuman: Executing command [USER=root] [TTY=unknown] [CWD=/home/hanuman] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-08T10:51:44.333384+05:30 hanuman-VMware-Virtual-Platform dbus-daemon[703]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-02-08T10:55:01.120869+05:30 hanuman-VMware-Virtual-Platform CRON[3061]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T10:55:01.139495+05:30 hanuman-VMware-Virtual-Platform CRON[3061]: pam_unix(cron:session): session closed for user root
+2026-02-08T10:59:31.783438+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-08T11:05:01.166029+05:30 hanuman-VMware-Virtual-Platform CRON[3288]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:05:01.176974+05:30 hanuman-VMware-Virtual-Platform CRON[3288]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:15:01.231078+05:30 hanuman-VMware-Virtual-Platform CRON[3338]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:15:01.245595+05:30 hanuman-VMware-Virtual-Platform CRON[3338]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:17:01.266380+05:30 hanuman-VMware-Virtual-Platform CRON[3357]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:17:01.308276+05:30 hanuman-VMware-Virtual-Platform CRON[3357]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:19:37.115829+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-08T11:25:01.388644+05:30 hanuman-VMware-Virtual-Platform CRON[4501]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:25:01.456742+05:30 hanuman-VMware-Virtual-Platform CRON[4501]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:28:11.438199+05:30 hanuman-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hanuman(uid=1000)
+2026-02-08T11:28:11.443938+05:30 hanuman-VMware-Virtual-Platform pkexec[5740]: hanuman: Executing command [USER=root] [TTY=unknown] [CWD=/home/hanuman] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-08T11:30:01.522652+05:30 hanuman-VMware-Virtual-Platform CRON[5853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:30:01.534961+05:30 hanuman-VMware-Virtual-Platform CRON[5853]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:31:01.282335+05:30 hanuman-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hanuman(uid=1000)
+2026-02-08T11:31:01.287462+05:30 hanuman-VMware-Virtual-Platform pkexec[5871]: hanuman: Executing command [USER=root] [TTY=unknown] [CWD=/home/hanuman] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-08T11:35:01.557275+05:30 hanuman-VMware-Virtual-Platform CRON[5925]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:35:01.575969+05:30 hanuman-VMware-Virtual-Platform CRON[5925]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:38:27.318194+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-08T11:45:01.617360+05:30 hanuman-VMware-Virtual-Platform CRON[6110]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:45:01.635663+05:30 hanuman-VMware-Virtual-Platform CRON[6110]: pam_unix(cron:session): session closed for user root
+2026-02-08T11:55:01.684931+05:30 hanuman-VMware-Virtual-Platform CRON[6181]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T11:55:01.698732+05:30 hanuman-VMware-Virtual-Platform CRON[6181]: pam_unix(cron:session): session closed for user root
+2026-02-08T12:05:01.733243+05:30 hanuman-VMware-Virtual-Platform CRON[6307]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T12:05:01.750578+05:30 hanuman-VMware-Virtual-Platform CRON[6307]: pam_unix(cron:session): session closed for user root
+2026-02-08T12:10:45.268339+05:30 hanuman-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-08T12:15:01.796414+05:30 hanuman-VMware-Virtual-Platform CRON[6498]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T12:15:01.816310+05:30 hanuman-VMware-Virtual-Platform CRON[6498]: pam_unix(cron:session): session closed for user root
+2026-02-08T12:17:01.846296+05:30 hanuman-VMware-Virtual-Platform CRON[6533]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T12:17:01.871100+05:30 hanuman-VMware-Virtual-Platform CRON[6533]: pam_unix(cron:session): session closed for user root
+2026-02-08T12:25:02.007160+05:30 hanuman-VMware-Virtual-Platform CRON[6625]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T12:25:02.052793+05:30 hanuman-VMware-Virtual-Platform CRON[6625]: pam_unix(cron:session): session closed for user root
+2026-02-08T12:30:01.078168+05:30 hanuman-VMware-Virtual-Platform CRON[6735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-08T12:30:01.093121+05:30 hanuman-VMware-Virtual-Platform CRON[6735]: pam_unix(cron:session): session closed for user root
