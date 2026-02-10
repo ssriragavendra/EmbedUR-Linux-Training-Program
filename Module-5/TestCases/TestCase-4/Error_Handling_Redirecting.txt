@@ -1,0 +1,6 @@
+Command:
+./File_analyser.sh -d missing_folder -k "test" >
+Error_Test_Output.txt 2>&1
+
+Output:
+	An error log has been generated and got displayed in the terminal with the message "ERROR: Directory 'missing_folder' doesn't exist."

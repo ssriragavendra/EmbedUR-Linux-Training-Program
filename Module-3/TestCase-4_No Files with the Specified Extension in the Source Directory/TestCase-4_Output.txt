@@ -1,0 +1,16 @@
+Task-1 Command line arguements
+
+The added arguements:
+Source directory : test_source
+Backup directory : test_backup
+File extension : .pdf
+
+Finding the files using globbing
+
+Files found in source directory wth extension .pdf
+ doc1.pdf
+The export variable
+Total number of .pdf files to backup: 1
+Creating Associative Array
+Files listed with index:
+ [0] doc1.pdf

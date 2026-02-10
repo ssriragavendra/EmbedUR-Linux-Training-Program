@@ -1,0 +1,5 @@
+Command:
+./File_analyser.sh -f sample.txt -k "" > Validation_Output.txt
+
+Output:
+	An error log has been generated and got displayed in the terminal with the message "ERROR: Keyword cannot be empty"

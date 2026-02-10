@@ -1,0 +1,2 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+hanuman     2985 10.8 23.7 12139912 466296 ?     Sl   22:47   7:45 /snap/firefox/7720/usr/lib/firefox/firefox
