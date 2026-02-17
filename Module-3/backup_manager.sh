@@ -27,8 +27,7 @@ if [[ ! -d "$backup_dir" ]]; then
 fi
 
 # Task 3: Export Statement
-# Using globbing to find files and counting them
-shopt -s nullglob # Prevents errors if no files match the extension
+shopt -s nullglob 
 files_to_backup=("$source_dir"/*"$file_ext")
 export BACKUP_COUNT=${#files_to_backup[@]}
 
