@@ -3,7 +3,7 @@
 INPUT_FILE="$1"
 OUTPUT_FILE="output.txt"
 
-> "$output.txt"
+> "$OUTPUT_FILE"
 
 frame_time=""
 fc_type=""
@@ -29,12 +29,11 @@ do
             echo "\"wlan.fc.type\": \"$fc_type\","
             echo "\"wlan.fc.subtype\": \"$fc_subtype\""
             echo
-        } >> "$output.txt"
+        } >> "$OUTPUT_FILE"
 
-        # Reset for next frame
         frame_time=""
         fc_type=""
         fc_subtype=""
     fi
 
-done < "$input.txt"
+done < "$INPUT_FILE"
